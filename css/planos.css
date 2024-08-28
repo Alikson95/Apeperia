@@ -1,0 +1,33 @@
+.planos {
+    background-color: var(--cinza-claro);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.planos .planos__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+
+.planos .planos__cards {
+    background-color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte-texto);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.planos .planos__cards .planos__cards-titulo {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--azul-claro);
+    padding: 1rem 0;
+}

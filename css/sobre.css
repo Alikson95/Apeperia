@@ -1,0 +1,34 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.sobre .sobre__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+
+.sobre .sobre__texto {
+    font-family: var(--fonte-texto);
+    line-height: 1.36rem;
+    color: var(--preto);
+}
+
+.sobre .sobre__texto strong {
+    font-weight: 700;
+}
+
+#destaque {
+    font-weight: 700;
+}
+
+.sobre .sobre__imagens {
+    display: flex;
+    justify-content: space-evenly;
+}
