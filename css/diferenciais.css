@@ -1,0 +1,30 @@
+.diferenciais {
+    font-family: var(--fonte-texto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.diferenciais .diferenciais__topicos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem;
+}
+
+.diferenciais .diferenciais__topicos .diferenciais__topicos-titulo {
+    font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.18rem;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+}
+
+.diferenciais .diferenciais__topicos .diferenciais__topicos-texto {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.36rem;
+    color: var(--preto);
+}
