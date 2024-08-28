@@ -1,7 +1,10 @@
 .planos {
     background-color: var(--cinza-claro);
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     row-gap: 1.5rem;
 }
 
@@ -22,6 +25,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    width: 90%;
 }
 
 .planos .planos__cards .planos__cards-titulo {
@@ -30,4 +34,59 @@
     font-weight: 700;
     border-bottom: 1px solid var(--azul-claro);
     padding: 1rem 0;
+}
+
+.planos .planos__cards .planos__cards-valor {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.planos .planos__cards .planos__cards-texto {
+    font-size: .94rem;
+    line-height: 1.75rem;
+}
+
+.planos .planos__cards .planos__cards-botao {
+    font-size: 1.18rem;
+    line-height: 1.18rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: 0 1rem 1rem;
+}
+
+/* PLANO STAR */
+
+.start {
+    color: var(--planos-cartao-start);
+}
+
+.botao-start {
+    border: 1px solid var(--planos-cartao-start);
+    border-radius: 5px;
+    color: var(--planos-cartao-start);
+}
+
+/* PLANO ULTRA */
+
+.ultra {
+    color: var(--planos-cartao-ultra);
+}
+
+.botao-ultra {
+    border: 1px solid var(--planos-cartao-ultra);
+    border-radius: 5px;
+    color: var(--planos-cartao-ultra);
+}
+
+/* PLANO MEGA */
+
+.mega {
+    color: var(--planos-cartao-mega);
+}
+
+.botao-mega {
+    border: 1px solid var(--planos-cartao-mega);
+    border-radius: 5px;
+    color: var(--planos-cartao-mega);
 }
